@@ -8,8 +8,20 @@
 </head>
 <body>
 	Trang chủ của user
-	<form action="${pageContext.request.contextPath}/logout" method="post">
-		<button type="submit">Logout</button>
-	</form>
+	<div>
+		<form action="${pageContext.request.contextPath}/logout" method="post">
+			<button type="submit">Logout</button>
+		</form>
+	</div>
+
+	<div>
+		<form action="${pageContext.request.contextPath}/movetouploadfile"
+			method="POST">
+			<button type="submit">Upload File</button>
+		</form>
+	</div>
+
+
+
 </body>
 </html>
